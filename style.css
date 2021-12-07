@@ -1,0 +1,33 @@
+/* Todas las etiquetas y elementos de html son una caja para CSS  */
+
+/*Contenido: texto u otro contenido multimedia*/
+/*Relleno/padding rellena: el espacio entre el contenido y su borde   */
+/* Borde/border: Linea entre el relleno y el margen*/
+/*Margen/margin empuja: El espacio entre la caja y las cajas circundantes*/
+
+h1 {
+    /*padding: 40px;
+    padding-top: 40px;
+    padding-right: 8px;
+    padding-bottom: 80px;
+    padding-left: 16px;*/
+    /*El primer valor es vertical y el segundo horizontal*/
+    /*padding: 20px 62px;*/
+    /*Aca aplico primero top, segundo right, tercero bottom y cuarto left*/
+    padding: 20px 62px 8px 12px;
+
+    /*border siempre poner tamanio, estilo y color(size style color*/
+    border: 4px dotted #0c0c0a;
+    border-right: 2px solid lightblue;
+    /*redondear esquinas*/
+    border-radius: 50px;
+}
+
+p {
+    /* margin se codifica igual que el padding solo que este empuja/separa*/
+    margin: 40px 60px 80px 12px  ;
+    /*margin-top: ;
+    margin-right: ;
+    margin-bottom: ;
+    margin-left: /*;
+}
